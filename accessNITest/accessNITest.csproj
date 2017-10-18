@@ -111,10 +111,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessNIInformation.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="AccessNIInformation.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
+    <Compile Include="Dialogs\AccessNIInformation.cs" />
     <Compile Include="Dialogs\RootDialog.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -6,6 +6,7 @@ using System.Web;
 
 namespace accessNITest
 {
+    [Serializable]
     public class Validator
     {
         public DateTime? CheckDOB(string inputtedDate)
@@ -43,20 +44,20 @@ namespace accessNITest
             return true;
         }
 
-        public bool CheckPhoneNumber()
+        public bool CheckPhoneNumber(string number)
         {
             string phoneNumRegExp = "^(+44s ? 7d{ 3}|(? 07d{ 3})?)s ?d{ 3}s ?d{ 3}$";
 
             return true;
         }
 
-        public bool CheckDriverLicenseNumber()
+        public bool CheckDriverLicenseNumber(String number)
         {
             // 8 or 16
             return true;
         }
 
-        public bool CheckPassportNumber()
+        public bool CheckPassportNumber(string number)
         {
             //9 digits
             return true;
