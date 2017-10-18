@@ -5,6 +5,7 @@ using System.Web;
 
 namespace accessNITest
 {
+    [Serializable]
     public class AccessNIInformation
     {
         public String Title { get; set; }
